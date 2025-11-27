@@ -46,7 +46,7 @@ const SUPPORTED_TRIGGERS = [{
     description: "Trigger based on asset price movements.",
 }]
 
-const SUPPORTED_ASSETS = ["SOL", "ETH", "BTC", "USDC"];
+export const SUPPORTED_ASSETS = ["SOL", "ETH", "BTC", "USDC"];
 
 export const TriggerSheet = (
     {

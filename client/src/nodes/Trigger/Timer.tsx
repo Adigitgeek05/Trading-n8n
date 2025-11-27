@@ -12,7 +12,7 @@ export function Timer({data}: {
 } )
 {
     return <div className="p-4 border">
-        Every {data.metadata.time / 3600} seconds
+        Every {data.metadata.time} seconds
         <Handle type="source" position={Position.Right}></Handle>
     </div>
 }
