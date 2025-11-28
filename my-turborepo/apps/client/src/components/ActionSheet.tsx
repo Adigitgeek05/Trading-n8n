@@ -26,8 +26,8 @@ import {
 import { useState } from "react";
 
 
-import type { TradingMetadata } from "@/nodes/action/Lighter";
-
+import type { TradingMetadata } from "common/types";
+import { SUPPORTED_ASSETS } from "common/types";
 
 
 
@@ -50,11 +50,7 @@ const SUPPORTED_ACTIONS = [{
     description: "Place a trade on backpack",
 }]
 
-const SUPPORTED_ASSETS = [
-  "BTC-PERP",
-  "ETH-PERP",
-  "SOL-PERP",
-];
+
 
 const LONG = "LONG";
 const SHORT = "SHORT";

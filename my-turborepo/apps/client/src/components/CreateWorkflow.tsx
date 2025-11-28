@@ -3,9 +3,12 @@ import { ReactFlow, applyNodeChanges, applyEdgeChanges, addEdge } from "@xyflow/
 import "@xyflow/react/dist/style.css";
 
 import { TriggerSheet } from "./TriggerSheet";
-import { PriceTrigger, type PriceTriggerNodeMetadata } from "@/nodes/Trigger/PriceTrigger";
-import { Timer, type TimerNodeMetadata } from "@/nodes/Trigger/Timer";
-import { Lighter, type TradingMetadata } from "@/nodes/action/Lighter";
+import { PriceTrigger} from "@/nodes/Trigger/PriceTrigger";
+import { Timer} from "@/nodes/Trigger/Timer";
+import { Lighter} from "@/nodes/action/Lighter";
+import type { TradingMetadata } from "common/types";
+import type { TimerNodeMetadata } from "common/types";
+import type { PriceTriggerNodeMetadata } from "common/types";
 import { ActionSheet } from "./ActionSheet";
 import { Backpack } from "@/nodes/action/Backpack";
 import { Hyperliquid } from "@/nodes/action/Hyperliquid";

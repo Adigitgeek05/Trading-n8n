@@ -1,7 +1,7 @@
 
 import {Handle ,Position} from "@xyflow/react";
 
-import type { TradingMetadata } from "@/nodes/action/Lighter";
+import type { TradingMetadata } from "common/types";
 export function Hyperliquid({data}:{
     data: {
         metadata: TradingMetadata

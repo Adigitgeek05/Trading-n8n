@@ -24,11 +24,11 @@ import {
 } from "@/components/ui/select"
 
 import { useState } from "react";
-import type { PriceTriggerNodeMetadata } from "@/nodes/Trigger/PriceTrigger";
+import type { PriceTriggerNodeMetadata } from "common/types";
 
 
-import type { TimerNodeMetadata } from "@/nodes/Trigger/Timer.tsx";
-
+import type { TimerNodeMetadata } from "common/types";
+import { SUPPORTED_ASSETS } from "common/types";
 
 
 
@@ -46,7 +46,7 @@ const SUPPORTED_TRIGGERS = [{
     description: "Trigger based on asset price movements.",
 }]
 
-export const SUPPORTED_ASSETS = ["SOL", "ETH", "BTC", "USDC"];
+
 
 export const TriggerSheet = (
     {

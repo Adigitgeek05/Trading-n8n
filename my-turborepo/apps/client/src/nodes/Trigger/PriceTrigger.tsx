@@ -1,9 +1,5 @@
 import {Handle ,Position} from "@xyflow/react";
-export type PriceTriggerNodeMetadata= {
-    price: number,
-    asset: string,
-    
-};
+import  { type PriceTriggerNodeMetadata } from "common/types";
 
 
 export function PriceTrigger({data}: {
